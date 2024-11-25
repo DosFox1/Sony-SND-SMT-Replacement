@@ -37,7 +37,7 @@ IC1      LM358          OPAMP-DUALU                  SO08     SparkFun-IC-Amplif
 IC2      4016D          4016D                        SO14     40xx                   1
 IC3      NE555DRG4      555_SOIC8                    SOIC8    ICs                    1
 IC4      74LVC1G06DBV   74LVC1G06DBV                 SOT23-5  74xx-little-us         1
-IC5                     SND                          DIP16    ICs                    1
+IC5      Turned pins    SND THT turned pins          DIP16    Pins                   1
 Q1       MMBT3906       TRANS_PNP-PMBT3906|MMBT3906L SOT23-3  SparkFun-DiscreteSemi  1
 Q2       MMBT3904       TRANS_NPN-MMBT2222AL         SOT23-3  SparkFun-DiscreteSemi  1
 R1       1M             GENERIC_RESISTOR_0603        R0603    Resistors SMD          1
