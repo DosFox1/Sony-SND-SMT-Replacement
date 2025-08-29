@@ -2,18 +2,18 @@
 BETA -
 A replacement for the Sony SND IC (part number 343-0045-A) as used on the Macintosh Plus, SE and others, using SMD parts.
 
-![Sony SND SMD Front](https://github.com/user-attachments/assets/a9366a45-02f2-4450-8ef1-25b19c2cc6e2)
+<img width="1128" height="509" alt="image" src="https://github.com/user-attachments/assets/88bbd5cf-0943-445c-919b-b6563787e6c3" />
+<img width="1125" height="510" alt="image" src="https://github.com/user-attachments/assets/ef6fa29b-b432-4adf-a1a1-ab30576f81a0" />
 
-
-![Sony SND SMD Back](https://github.com/user-attachments/assets/6860037d-bd89-46c1-ab46-15233396dfbb)
 
 # So what is it?
 This is a variant of my existing Sony SND replacement, however, it uses purely SMD parts. 
 My original repo for the through hole variant can be found here:
 https://github.com/DosFox1/Sony-SND-THT-Replacement
 
-The design is effectively the same, except that this variant should only require the +5v and +12v rails - there is no requirement to tap -12v from the board. 
-This might work, it might not. I need to build and test it first!
+The design is effectively the same - tincluding the annoying requirement to tap -12v from the board. If it aint broke, don't fix it!
+Turns out removing -12v makes the audio output unhappy. So make sure you leave that in. 
+POR works though - just make sure the pullup resistor from the POR switch is removed (I.E, R21 on the Mac Plus board). 
 
 **NOTE - This is Completely Untested**
 # Bill Of Materials:
@@ -32,8 +32,8 @@ C9       100n 16V       100N_CAP_0603                C0603    Capacitors SMD    
 C10      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
 C11      220p           220P_CAP_0603                C0603    Capacitors SMD         1
 C13      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
-D1       5.1V           DIODE-ZENER-MMSZ5231B        SOD-323  SparkFun-DiscreteSemi  1
-IC1      LM358          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
+D1       5.1V           DIODE-ZENER-MMSZ5231B        SOD-123  SparkFun-DiscreteSemi  1
+IC1      TL072          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
 IC2      4016D          4016D                        SO14     40xx                   1
 IC3      NE555DRG4      555_SOIC8                    SOIC8    ICs                    1
 IC4      74LVC1G06DBV   74LVC1G06DBV                 SOT23-5  74xx-little-us         1
