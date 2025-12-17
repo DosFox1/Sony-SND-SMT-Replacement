@@ -31,7 +31,7 @@ C8       1n 50V         1N_CAP_0603                  C0603    Capacitors SMD    
 C9       100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
 C10      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
 C11      220p           220P_CAP_0603                C0603    Capacitors SMD         1
-C13      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
+C12      100n 16V       100N_CAP_0603                C0603    Capacitors SMD         1
 D1       5.1V           DIODE-ZENER-MMSZ5231B        SOD-123  SparkFun-DiscreteSemi  1
 IC1      TL072          OPAMP-DUALU                  SO08     SparkFun-IC-Amplifiers 1
 IC2      4016D          4016D                        SO14     40xx                   1
